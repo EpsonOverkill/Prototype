@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: "real-estate-85d32.firebaseapp.com",
-  projectId: "real-estate-85d32",
-  storageBucket: "real-estate-85d32.firebasestorage.app",
-  messagingSenderId: "476515020105",
-  appId: "1:476515020105:web:bbe5150d01b4605ea4be98"
+  apiKey: "AIzaSyBi8C8mEbzkZlppDw6ekWIycDi_ZnyR5Tc",
+  authDomain: "eventspot-19f51.firebaseapp.com",
+  projectId: "eventspot-19f51",
+  storageBucket: "eventspot-19f51.appspot.com",
+  messagingSenderId: "YOUR_ID",
+  appId: "YOUR_APP_ID"
 };
 
 // Initialize Firebase

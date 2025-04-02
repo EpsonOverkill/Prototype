@@ -1,40 +1,27 @@
 {
-  "name": "eventspot",
+  "name": "mern-estate",
   "version": "1.0.0",
-  "description": "Event management platform",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": "node api/index.js",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client",
-    "client": "npm start --prefix client",
-    "server": "nodemon api/index.js",
-    "dev:full": "concurrently \"npm run server\" \"npm run client\""
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
-  "keywords": [
-    "event",
-    "management",
-    "platform",
-    "booking"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "cloudinary": "^1.40.0",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2",
+    "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.8.6",
-    "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.1.9",
-    "stripe": "^14.10.0"
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1"
   },
   "devDependencies": {
-    "@types/node": "^22.13.17",
-    "concurrently": "^8.2.2"
+    "@types/node": "^22.13.17"
   }
 }
